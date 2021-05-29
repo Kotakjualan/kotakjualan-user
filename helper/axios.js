@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const base = "http://127.0.0.1"
+const base = "http://127.0.0.1/v1/api"
 
 const logoutEvent = () => {
 
@@ -41,5 +41,5 @@ export const NET = async (tipe, url, data) => {
   }
 
   return objectResponse
-  
+
 }

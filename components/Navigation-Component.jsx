@@ -3,7 +3,7 @@ import loadable from '@loadable/component'
 import {AiOutlineHome} from  'react-icons/ai'
 import {GoSearch, GoHeart} from 'react-icons/go'
 
-const Link = loadable(()=>import("next/Link"))
+const Link = loadable(()=>import("next/link"))
 const Image = loadable(()=>import("next/image"))
 
 export default function Navigation(){

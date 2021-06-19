@@ -92,7 +92,7 @@ export default function DetailMarket(){
                 <input className="w-full p-2 rounded hover:border-yellow-300 ring-1 ring-gray-400" type="number"></input>
               </div>
 
-              <button className="mt-2 w-full bg-yellow-400 hover:bg-yellow-500 rounded text-white font-semibold p-3">
+              <button className="mt-2 w-full bg-black hover:bg-gray-900 rounded text-white font-semibold p-3">
                 + Keranjang
               </button>                                    
             </div>
